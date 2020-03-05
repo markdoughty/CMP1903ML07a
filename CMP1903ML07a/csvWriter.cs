@@ -9,6 +9,7 @@ namespace CMP1903ML07a
      
         public void writeLogEntry(string entry)
         {
+            //a comment *****
             if (entry == null)
             {
                 throw new ArgumentNullException();

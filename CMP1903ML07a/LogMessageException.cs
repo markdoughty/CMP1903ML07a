@@ -7,7 +7,7 @@ namespace CMP1903ML07a
     //Custom Exception
     class LogMessageException : Exception
     {
-        //
+        //Constructor
         public LogMessageException(string message) : base(message)
         {
 

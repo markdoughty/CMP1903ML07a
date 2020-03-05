@@ -13,7 +13,7 @@ namespace CMP1903ML07a
             {
                 throw new ArgumentNullException();
             }
-            if(entry.Length < 8)
+            if(entry.Length <= 8 )
             {
                 throw new LogMessageException("Log message must be more than 8 characters");
             }
